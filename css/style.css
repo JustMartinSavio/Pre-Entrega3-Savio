@@ -11,14 +11,14 @@
 
 
 
-    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@700&family=Josefin+Sans:ital,wght@0,300;0,400;1,300&display=swap');
 
 
-*{
+* {
     font-family: 'Josefin Sans', sans-serif;
     padding: 0;
     margin: 0;
-    
+
 }
 
 body {
@@ -28,15 +28,15 @@ body {
 }
 
 nav {
- 
-    padding: 0 5px 0 5px; 
+
+    padding: 0 5px 0 5px;
     list-style: none;
     background-color: rgba(93, 60, 173, 1);
     align-content: center;
     justify-content: space-between;
     display: flex;
-    max-height: 100px;  
-    z-index: 999;  
+    max-height: 100px;
+    z-index: 999;
     position: sticky;
     top: 0;
 }
@@ -44,11 +44,10 @@ nav {
 
 nav div {
 
-display: inline-block
-
+    display: inline-block
 }
 
-nav div a{
+nav div a {
 
     font-size: 20px;
     text-decoration: none;
@@ -71,21 +70,21 @@ nav div a{
 
 
 .div_mid {
-    
+
     margin: 0 0 0 10%;
     justify-content: center;
-   
+
 }
 
 .div_mid img {
-    
+
     align-content: center;
     scale: 100%;
     height: 105px;
     margin: -1% 0 0 0;
     border-radius: 5px;
     box-shadow: -5px 4px 23px 0px #000;
- 
+
 }
 
 .div_right {
@@ -94,7 +93,7 @@ nav div a{
     justify-content: space-between;
     padding: 2% 0 0 0%;
     margin: 0 20% 0 0%;
-    
+
 }
 
 .div_right a {
@@ -120,20 +119,47 @@ nav div a{
 
 }
 
+.guion {
+
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: 300;
+
+}
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 0 0 5% 0;
+
+
+}
+
 h2 {
 
-display: flex;
-justify-content: center;
-margin: 7% 0 0 0;
-font-size: 35px;
-color: rgba(93, 60, 173, 1);
-text-shadow: -2px 2px 3px #6F6F6F;
+    display: flex;
+    justify-content: center;
+    margin: -2% 0 0 0;
+    font-size: 30px;
+    color: rgba(93, 60, 173, 1);
+    text-shadow: -1px 2px 2px #6F6F6F;
+
+}
+
+h3 {
+
+    display: flex;
+    justify-content: center;
+    padding: 5% 10% ;
 
 }
 
 .product_containers {
 
-    margin: 4% 20% 5% 20%;
+    margin: 6% 20% 4% 20%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -142,7 +168,7 @@ text-shadow: -2px 2px 3px #6F6F6F;
 }
 
 .product_containers figure {
-    
+
     justify-content: center;
 }
 
@@ -152,21 +178,22 @@ text-shadow: -2px 2px 3px #6F6F6F;
     max-width: 75%;
     border: 3px double #3C3C3C;
     border-radius: 3px;
-    
+
 }
 
 .product_containers figure figcaption {
 
     margin: 0% 0 0 0;
     font-weight: 500;
-    
-    
+
+
 }
 
 .smallbanner {
 
     display: flex;
     justify-content: center;
+    margin: 0 0 4% 0;
 
 }
 
@@ -175,9 +202,155 @@ text-shadow: -2px 2px 3px #6F6F6F;
     max-width: 65%;
 }
 
+
+/* Comienza Sell */
+
+.wrapper_search {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 7% 0 0;
+    /* margin: 2% 7% 0 0; */
+}
+
+.jordan_silhouette {
+
+
+    max-width: 10%;
+
+}
+
+.input_search {
+
+    width: 30vw;
+    height: 4vh;
+    text-indent: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.jordan_shoe_transparent {
+
+    scale: 60%;
+    display: flex;
+    justify-content: center;
+    margin: -5% 0 -5% 0;
+
+}
+
+/* Termina Sell */
+
+/* Comienza Contact */
+
+.contact_wrapper {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-height: 80vh;
+    padding: 7px 0 0 0;
+    margin: 0 0 0 -7%;
+
+}
+
+.form_wrapper {
+
+    margin: -2% 5% 0 0;
+    width: 30vw;
+    display: inline;
+
+
+}
+
+.form_wrapper form {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+
+.form_wrapper input {
+
+    margin: 2% 0 4% 0;
+    border: none;
+    border-bottom: 1px solid #777777;
+    border-radius: 4px;
+    width: 100%;
+    text-indent: 10px;
+    padding: 2% 0;
+    font-size: 16px;
+    background-color: transparent;
+
+}
+
+
+.form_wrapper input:focus {
+
+    outline: none;
+}
+
+.form_wrapper textarea {
+
+    margin: 2% 0 0 0;
+    border: none;
+    border-bottom: 1px solid #777777;
+    border-radius: 4px;
+    resize: none;
+    max-width: 100%;
+    text-indent: 10px;
+    padding: 2% 0;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.form_wrapper textarea:focus {
+
+outline: none;
+
+}
+
+.submit_buttons {
+
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.submit_buttons input {
+
+    padding: 1% 0;
+    max-width: 12%;
+    border: 1px ridge #000;
+    border-radius: 3px;
+    text-indent: 0px;
+
+}
+
+.shoe_wrapper {
+
+    scale: 80%;
+    width: 30vw;
+    display: inline;
+
+}
+
+.shoe_wrapper img {
+
+    margin: -24% 0% 0 -15%;
+
+}
+
+/* Termina Contact */
+
+/* Empieza Footer */
+
 footer {
 
-    padding: 0 1% 0 1%; 
+    padding: 1% 1%;
     list-style: none;
     background-color: rgba(93, 60, 173, 1);
     display: flex;
@@ -186,18 +359,37 @@ footer {
 
 }
 
-.footer_payments {
+footer h4 {
 
-    margin: 4% 20% 5% 20%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* max-width: 60%; */
+padding: 0 0 4% 0;    
 
 }
 
-.footer_payments figure {
+footer div p {
+
+margin: 4% 0;
+
+}
+
+.icon_wrapper {
+
+width: 200px;
+justify-content: space-evenly;
+
+}
+
+.icons {
+
     
+    max-width: 40px;
+    max-height: 40px;
+   
+
+}
+
+
+.footer_payments figure {
+
     justify-content: center;
 }
 
@@ -205,7 +397,7 @@ footer {
 
     width: 60px;
     height: 60px;
-    
+
 }
 
 .footer_payments figure figcaption {
@@ -214,3 +406,5 @@ footer {
     font-weight: 500;
 
 }
+
+/* Termina Footer */
