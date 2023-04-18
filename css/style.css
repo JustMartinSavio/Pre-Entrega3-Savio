@@ -670,13 +670,19 @@ footer div p {
 
 .icon_wrapper {
 
+    
     width: 200px;
     justify-content: space-evenly;
 
 }
 
-.icons {
+.icon_wrapper a {
 
+    text-decoration: none;
+}
+
+.icons {
+    
     max-width: 40px;
     max-height: 40px;
     fill: var(--white_text);
