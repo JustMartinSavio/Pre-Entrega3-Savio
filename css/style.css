@@ -114,6 +114,70 @@ background-color: var(--main_background_color);
     
     }
     
+    footer {
+
+        padding: 1% 1%;
+        list-style: none;
+        background-color: var(--purple_color);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: var(--white_text);
+    }
+    
+    footer h4 {
+    
+        padding: 0 0 4% 0;
+    
+    }
+    
+    footer div p {
+    
+        margin: 4% 0;
+    
+    }
+    
+    .icon_wrapper {
+    
+        
+        width: 200px;
+        justify-content: space-evenly;
+    
+    }
+    
+    .icon_wrapper a {
+    
+        text-decoration: none;
+    }
+    
+    .icons {
+        
+        max-width: 40px;
+        max-height: 40px;
+        fill: var(--white_text);
+    
+    
+    }
+    
+    
+    .footer_payments figure {
+    
+        justify-content: center;
+    }
+    
+    .footer_payments figure img {
+    
+        width: 60px;
+        height: 60px;
+    
+    }
+    
+    .footer_payments figure figcaption {
+    
+        margin: 0% 0 0 0;
+        font-weight: 500;
+    
+    }
 
 }
 
@@ -148,7 +212,7 @@ background-color: var(--main_background_color);
     
     .div_left {
     
-        width: 30vw;
+        width: 50vw;
         display: flex;
         justify-content: space-evenly; 
         align-items: center;
@@ -166,14 +230,83 @@ background-color: var(--main_background_color);
     
     .div_right {
 
-        width: 30vw;
+        
+        width: 50vw;
+        margin: 0 6vw 0 0;
         display: flex;
-        justify-content: space-evenly;
+        justify-content: space-between;
         align-items: center;
     
     }
 
 
+    footer {
+
+        padding: 1% 1%;
+        list-style: none;
+        background-color: var(--purple_color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        color: var(--white_text);
+    }
+    
+    footer h4 {
+    
+        padding: 0 0 4% 0;
+    
+    }
+    
+    footer div p {
+    
+        margin: 4% 0;
+    
+    }
+    
+    .icon_wrapper {
+    
+        
+        width: 200px;
+        justify-content: space-evenly;
+    
+    }
+    
+    .icon_wrapper a {
+    
+        text-decoration: none;
+    }
+    
+    .icons {
+
+        aspect-ratio: 3/2;
+        object-fit: contain;        
+        max-width: 40px;
+        max-height: 40px;
+        fill: var(--white_text);
+    
+    
+    }
+    
+    
+    .footer_payments figure {
+    
+        justify-content: center;
+    }
+    
+    .footer_payments figure img {
+    
+        width: 60px;
+        height: 60px;
+    
+    }
+    
+    .footer_payments figure figcaption {
+    
+        margin: 0% 0 0 0;
+        font-weight: 500;
+    
+    }
 
 }
 
@@ -645,69 +778,6 @@ margin: 5% 0 0 1% ;
 
 /* Empieza Footer */
 
-footer {
 
-    padding: 1% 1%;
-    list-style: none;
-    background-color: var(--purple_color);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    color: var(--white_text);
-}
-
-footer h4 {
-
-    padding: 0 0 4% 0;
-
-}
-
-footer div p {
-
-    margin: 4% 0;
-
-}
-
-.icon_wrapper {
-
-    
-    width: 200px;
-    justify-content: space-evenly;
-
-}
-
-.icon_wrapper a {
-
-    text-decoration: none;
-}
-
-.icons {
-    
-    max-width: 40px;
-    max-height: 40px;
-    fill: var(--white_text);
-
-
-}
-
-
-.footer_payments figure {
-
-    justify-content: center;
-}
-
-.footer_payments figure img {
-
-    width: 60px;
-    height: 60px;
-
-}
-
-.footer_payments figure figcaption {
-
-    margin: 0% 0 0 0;
-    font-weight: 500;
-
-}
 
 /* Termina Footer */
