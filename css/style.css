@@ -7,26 +7,26 @@
 }
 
 * {
-  font-family: var(--font);
+  font-family: "Josefin Sans", sans-serif;
   padding: 0;
   margin: 0;
 }
 
 .color-letras-blanco {
-  color: var(--white_text);
+  color: rgb(226, 226, 224);
 }
 
 body {
-  background-color: var(--main_background_color);
+  background-color: rgb(226, 226, 224);
 }
 
 .main-background {
-  background-color: var(--main_background_color);
+  background-color: rgb(226, 226, 224);
 }
 
 @media (min-width: 1200px) {
   nav {
-    background-color: var(--purple_color);
+    background-color: rgb(93, 60, 173);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,7 +42,7 @@ body {
   nav a {
     font-size: 20px;
     text-decoration: none;
-    color: var(--white_text);
+    color: rgb(226, 226, 224);
   }
   .div_left {
     width: 30vw;
@@ -70,11 +70,11 @@ body {
   footer {
     padding: 1% 1%;
     list-style: none;
-    background-color: var(--purple_color);
+    background-color: rgb(93, 60, 173);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: var(--white_text);
+    color: rgb(226, 226, 224);
   }
   footer h4 {
     padding: 0 0 4% 0;
@@ -92,7 +92,7 @@ body {
   .icons {
     max-width: 40px;
     max-height: 40px;
-    fill: var(--white_text);
+    fill: rgb(226, 226, 224);
   }
   .footer_payments figure {
     justify-content: center;
@@ -108,7 +108,7 @@ body {
 }
 @media (max-width: 1199px) {
   nav {
-    background-color: var(--purple_color);
+    background-color: rgb(93, 60, 173);
     align-content: flex-start;
     align-items: center;
     justify-content: space-evenly;
@@ -124,7 +124,7 @@ body {
   nav div a {
     font-size: 20px;
     text-decoration: none;
-    color: var(--white_text);
+    color: rgb(226, 226, 224);
   }
   nav .div_left {
     width: 50vw;
@@ -146,12 +146,12 @@ body {
   footer {
     padding: 1% 1%;
     list-style: none;
-    background-color: var(--purple_color);
+    background-color: rgb(93, 60, 173);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    color: var(--white_text);
+    color: rgb(226, 226, 224);
   }
   footer h4 {
     padding: 0 0 4% 0;
@@ -172,7 +172,7 @@ body {
        object-fit: contain;
     max-width: 40px;
     max-height: 40px;
-    fill: var(--white_text);
+    fill: rgb(226, 226, 224);
   }
   footer .footer_payments figure {
     justify-content: center;
@@ -406,7 +406,7 @@ h3 {
   width: 30vw;
   display: inline;
 }
-.contact_wrapper .shoe_wrapper img {
+.contact_wrapper .shoe_wrapper .shoe_wrapper img {
   margin: -24% 0% 0 -15%;
 }
 
@@ -435,7 +435,7 @@ h3 {
   font-size: 50px;
   font-style: italic;
   font-weight: 1200;
-  color: #6A0DAD;
+  color: rgb(93, 60, 173);
   text-shadow: -1px 2px 1px #686868;
   display: flex;
   justify-content: center;
